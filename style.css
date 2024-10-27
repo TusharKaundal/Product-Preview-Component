@@ -110,6 +110,11 @@ button {
     gap: 10px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: var(--deep-aquamarine-2);
+}
+
 
 @media screen and (min-width:600px) {
     .card {
