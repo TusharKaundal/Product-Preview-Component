@@ -1,0 +1,115 @@
+@import url('reset.css');
+
+:root {
+    --pure-white: #FFFFFF;
+    --cream: #F2EAE2;
+    --aurometal: #6C7289;
+    --deep-aquamarine-1: #3D8168;
+    --deep-aquamarine-2: #1A4032;
+    --gunmetal: #1C232B;
+}
+
+.display-text {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    color: var(--gunmetal);
+}
+
+.body-text {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: var(--aurometal);
+}
+
+.overline-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 5px;
+    color: var(--aurometal);
+}
+
+s {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: var(--aurometal);
+    letter-spacing: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--cream);
+    gap: 10px;
+}
+
+.card {
+    border-radius: 12px;
+    width: 21.3rem;
+    overflow: hidden;
+    background-color: var(--pure-white);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.card-body-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding-block: 15px;
+    background-color: var(--deep-aquamarine-1);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--deep-aquamarine-2);
+}
+
+.button-text {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: auto;
+    color: var(--pure-white);
+    letter-spacing: 0px;
+}
+
+@media screen and (min-width:600px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+
+
+    .card-body {
+        max-width: 50%;
+        justify-content: space-between;
+    }
+
+}

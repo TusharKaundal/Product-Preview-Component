@@ -7,14 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -23,6 +20,7 @@
       sizes="32x32"
       href="images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
 
@@ -48,18 +46,22 @@
       </picture>
 
       <div class="card-body">
-        <p class="card-body-tag">PERFUME</p>
-        <h1 class="card-body-heading">Gabrielle Essence Eau De Parfum</h1>
-        <p class="card-body-info">
+        <p class="card-body-tag overline-text">PERFUME</p>
+        <h1 class="card-body-heading display-text">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="card-body-info body-text">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
         <div class="card-body-price">
-          <h1>$149.99</h1>
-          <p>$169.99</p>
+          <span class="display-text" style="color: var(--deep-aquamarine-1)"
+            >$149.99</span
+          >
+          <s>$169.99</s>
         </div>
 
-        <button>
+        <button class="button-text">
           <img src="images/icon-cart.svg" alt="cart-icon" /> Add to Cart
         </button>
       </div>
