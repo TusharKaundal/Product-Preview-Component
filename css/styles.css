@@ -21,8 +21,8 @@
 .body-text {
     font-family: "Montserrat", serif;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 0.875rem;
+    line-height: 1.438rem;
     letter-spacing: 0px;
     color: var(--aurometal);
 }
@@ -30,17 +30,17 @@
 .overline-text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: auto;
-    letter-spacing: 5px;
+    letter-spacing: 0.313rem;
     color: var(--aurometal);
 }
 
 s {
     font-family: "Montserrat", serif;
     font-weight: 500;
-    font-size: 13px;
-    line-height: 23px;
+    font-size: 0.813rem;
+    line-height: 1.438rem;
     color: var(--aurometal);
     letter-spacing: 0px;
 }
@@ -52,11 +52,11 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--cream);
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .card {
-    border-radius: 12px;
+    border-radius: 0.75rem;
     width: 21.3rem;
     overflow: hidden;
     background-color: var(--pure-white);
@@ -72,17 +72,17 @@ body {
 .card-body-price {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 button {
-    padding-block: 15px;
+    padding-block: 0.938rem;
     background-color: var(--deep-aquamarine-1);
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     display: flex;
     justify-content: center;
-    gap: 10px
+    gap: 0.625rem;
 }
 
 button:hover {
@@ -93,7 +93,7 @@ button:hover {
 .button-text {
     font-family: "Montserrat", serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: auto;
     color: var(--pure-white);
     letter-spacing: 0px;
@@ -103,7 +103,7 @@ button:hover {
     .card {
         display: flex;
         flex-direction: row;
-        width: 600px;
+        width: 37.5rem;
     }
 
 
